@@ -49,7 +49,7 @@ export function Modal({ open, onClose, title, children }: ModalProps) {
             className="rounded-lg p-2 text-zinc-500 transition hover:bg-zinc-100 hover:text-zinc-700 dark:hover:bg-zinc-700 dark:hover:text-zinc-300"
             aria-label="关闭"
           >
-            <svg className="size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="size-6 md:size-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>

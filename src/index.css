@@ -11,3 +11,18 @@
 body {
   font-family: var(--font-sans);
 }
+
+/* 图标在手机上更清晰：矢量锐化，减少模糊 */
+button svg,
+[role="button"] svg,
+.icon-crisp {
+  shape-rendering: geometricPrecision;
+}
+@media (max-width: 767px) {
+  button svg,
+  [role="button"] svg {
+    /* 移动端提升一层渲染，减少模糊 */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+}

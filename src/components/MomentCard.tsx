@@ -37,7 +37,7 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
         aria-label="更多操作"
         aria-expanded={menuOpen}
       >
-        <svg className="size-5" fill="currentColor" viewBox="0 0 24 24">
+        <svg className="size-6 shrink-0 md:size-5" fill="currentColor" viewBox="0 0 24 24">
           <circle cx="12" cy="6" r="1.5" />
           <circle cx="12" cy="12" r="1.5" />
           <circle cx="12" cy="18" r="1.5" />
@@ -53,7 +53,7 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
             }}
             className="flex w-full items-center gap-2 px-4 py-2.5 text-left text-sm text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700"
           >
-            <svg className="size-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="size-5 shrink-0 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
             </svg>
             分享
@@ -66,7 +66,7 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
             }}
             className="flex w-full items-center gap-2 px-4 py-2.5 text-left text-sm text-zinc-700 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-700"
           >
-            <svg className="size-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="size-5 shrink-0 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
             </svg>
             编辑
@@ -79,7 +79,7 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
             }}
             className="flex w-full items-center gap-2 px-4 py-2.5 text-left text-sm text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/20"
           >
-            <svg className="size-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="size-5 shrink-0 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
             </svg>
             删除
@@ -98,8 +98,8 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
         title="分享"
         aria-label="分享"
       >
-        <svg className="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+        <svg className="size-5 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
         </svg>
       </button>
       <button
@@ -109,8 +109,8 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
         title="编辑"
         aria-label="编辑"
       >
-        <svg className="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+        <svg className="size-5 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
         </svg>
       </button>
       <button
@@ -120,8 +120,8 @@ export function MomentCard({ moment, onEdit, onDelete, onShare }: MomentCardProp
         title="删除"
         aria-label="删除"
       >
-        <svg className="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+        <svg className="size-5 md:size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
         </svg>
       </button>
     </div>
